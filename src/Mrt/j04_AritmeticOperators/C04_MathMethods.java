@@ -1,5 +1,7 @@
 package Mrt.j04_AritmeticOperators;
 
+import java.util.Random;
+
 public class C04_MathMethods {
     public static void main(String[] args) {
 
@@ -13,7 +15,7 @@ public class C04_MathMethods {
     Math.min(a, b)
     Girilen iki degerden kucuk olani verir.
 
-    Math.round(a)
+
     Girilen degerin en yakin tamsayiya yuvarlar.
 
     Math.sqrt(a)
@@ -34,5 +36,13 @@ public class C04_MathMethods {
         /* 81 sayısının karekökünü alalım */
 
         System.out.println("81'ün karekök değeri : " + Math.sqrt(81));
+        System.out.println("81'ün : " + Math.min(81,34));
+        System.out.println("81'ün : " + Math.max(81,234));
+        System.out.println("81'ün : " + Math.pow(81,2));
+        System.out.println("81'ün : " + Math.round(Math.random()*(-10)));
+
+        Random rand = new Random();
+        int randSayi = rand.nextInt(10);
+        System.out.println("randSayi = " + randSayi);
     }
 }

@@ -2,6 +2,7 @@ package Mrt.j04_AritmeticOperators;
 
 public class _11_ArithmeticOperator_reminder1 {
 
+
     public static void main(String[] args) {
 
         /*  Verilen int ler hakkında (num1, num2),
